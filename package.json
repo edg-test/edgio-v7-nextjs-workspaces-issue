@@ -1,0 +1,22 @@
+{
+  "name": "edgio-v7-nextjs-workspaces-issue",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npm i --prefix ./packages/next-app && npm i --prefix ./packages/components"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

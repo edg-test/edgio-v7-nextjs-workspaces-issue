@@ -1,0 +1,14 @@
+{
+  "name": "@project/components",
+  "private": true,
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "@types/classnames": "*",
+    "@types/react": "*",
+    "typescript": "^4.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
